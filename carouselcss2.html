@@ -19,7 +19,7 @@ body {display: flex;}
 $itemwidth: 164px;
 @while $count < 20 {
   .left#{$count} li {
-    left: $count * $itemwidth * -1
+    transform: translateX($count * $itemwidth * -1);
   }
   $count: $count + 1
 }</pre></body>

@@ -10,7 +10,13 @@ Based on: http://estelle.github.com/slides
 -->    
 <link rel="stylesheet"  class="removeForAT" href="css/styles.css">
 <style>
-pre {padding-top: 1.8vh;line-height: 4vh; background-size: 100% 8vh; font-size: 3.5vh; position: relative; top: -10px;}
+pre {
+    padding-top: .7em;
+    line-height: 1.13rem;
+    background-size: 100% 2.3rem;
+    font-size: 1.1rem;
+    position: relative;
+    }
 .tweet .content{
   display: flex;
   align-content: center;
@@ -86,17 +92,25 @@ object.enlarge {
 </div>
 
 
+
+<!-- Visa -->
 <div class="slide object" style="background: url(assets/images/visalogin.png) no-repeat center 0;">
 <object data="https://secure.checkout.visa.com"></object>
  
 <a href="https://secure.checkout.visa.com" class="pagelink">Original Site</a>
 </div>
 
+
+
+<!-- Ember radio widget -->
+
 <div class="slide object" style="background: url(assets/images/emberwidget.png) no-repeat center; background-size: contain">
 <a href="http://opensource.addepar.com/ember-widgets/#/ember-widgets/radioButton" class="pagelink">Original Site</a>
 </div>
 
 
+
+<!-- divider -->
 
 <div class="slide intro">
 <header><h1>Accessibility</h1></header>
@@ -126,7 +140,9 @@ object.enlarge {
 <div class="slide deaf colorblind" style="background-image: url(assets/images/colors.jpg)">
 <h1>Color Blindness experience</h1>
 </div>
-      <!-- slide -->
+
+
+<!-- slide -->
    <div class="slide tweet" style="text-align: center; padding-top: 40px;"> 
 <a href="https://twitter.com/dugboticus/status/720542337185771520"><img alt="Disability: a mismatch in interaction between the features of a person’s body and the features of the environment in which they live. &mdash; Alistair Duggin (@dugboticus) April 14, 2016" src="assets/images/tweetdisability.png"></a>
 </div>
@@ -455,7 +471,7 @@ object.enlarge {
 
 <div class="slide"> 
   <header>
-    <h1>February 15, 2018</h1>
+    <h1>Images, Videos, &amp; Scripts</h1>
   </header> 
   <img style="height: 80vh; display: inline-block; margin: auto;" id="bytesperpage" class="chart" src="http://chart.googleapis.com/chart?chs=700x394&cht=p&chco=226daa&chd=t:1434,76,73,613,99,1204,3&chds=0,1434&chdlp=b&chdl=total 3508 kB&chl=Images+-+1434+kB%7CHTML+-+76+kB%7CStylesheets+-+73+kB%7CScripts+-+613+kB%7CFonts+-+99+kB%7CVideo+-+1204+kB%7COther+-+3+kB&chma=|5&chtt=Average+Bytes+per+Page+by+Content+Type"
   alt='In 2018, content is Images=1434kb, HTML=76kb, Stylesheets=73kb, Scripts=613kb, Fonts=99kb, Video=1204 and Other=3kb for a total of 3,508 kb'>
@@ -466,18 +482,6 @@ object.enlarge {
 <div class="slide intro">
 <header><h1>Issues</h1></header>
 </div>
-
-
-
-<div class="slide object" style="background: url(assets/images/visalogin.png) no-repeat center 0;">
-<object data="https://secure.checkout.visa.com"></object>
-<a href="https://secure.checkout.visa.com" class="pagelink">Original Site</a>
-</div>
-
-<div class="slide">
-<div style="text-align: center;font-weight: bold;font-size: 30vw; transform: scale(1,0.8); color: #226DAA">RDD</div>
-</div>
-
 
 <div class="slide">
 <header><h1>43 Dependencies</h1></header>
@@ -496,6 +500,18 @@ object.enlarge {
 
 </section>
 </div>
+
+<div class="slide object" style="background: url(assets/images/visalogin.png) no-repeat center 0;">
+<object data="https://secure.checkout.visa.com"></object>
+<a href="https://secure.checkout.visa.com" class="pagelink">Original Site</a>
+</div>
+
+<div class="slide">
+<div style="text-align: center;font-weight: bold;font-size: 30vw; transform: scale(1,0.8); color: #226DAA">RDD</div>
+</div>
+
+
+
 
 <div class="slide">
 <header><h1>CSS</h1></header>
@@ -536,7 +552,7 @@ background-size: cover;" aria-label="Image of bay bridge's scaffolding">
 <div class="slide object" 
 style="background: url(assets/images/visalogin2.png) no-repeat center 0;">
 <object data="site/index.html"></object>
-<a href="site/index.html" class="pagelink">Without Libraries</a>
+<a href="site/index.html" class="pagelink">No Libraries, Same functionality</a>
 </div>
 
 <!---
@@ -554,7 +570,7 @@ style="background: url(assets/images/visalogin2.png) no-repeat center 0;">
 
 <div class="slide object">
 <object data="site/index.html"></object>
-<a href="site/" class="pagelink">Framework for a Select</a>
+<a href="site/" class="pagelink">Removed plugins for Select, Carousel, &amp; Masking</a>
 </div>
 
 
@@ -632,150 +648,16 @@ function setClass(objectID,newClass) {
 
 
 
+
+
+
+
+
+
 <div class="slide object">
-<object data="inputmask.html"></object>
-<a href="inputmask.html" class="pagelink">Open</a>
-<img src="assets/images/inputmasksize_a11y.png"  class="bytes" alt="script is only 2.0kb">
+<object data="https://miketaylr.com/code/input-type-attr.html"></object>
+<a href="https://miketaylr.com/code/input-type-attr.html" class="pagelink">Browser Test</a>
 </div>
-
-
-
-<!--
-<div class="slide object">
-<object data="http://www.wufoo.com/html5/example/"></object>
-<a href="http://www.wufoo.com/html5/example/" class="pagelink">Browser Test</a>
-</div>-->
-
-
-
-
-
-<div class="slide">
-<pre contenteditable class="allcode" style="padding-top: 23px;">&lt;ul>
-  &lt;li>
-    &lt;label for="expiration">Credit Card Expiration Month&lt;/label>
-    &lt;input id="expiration" type="tel" placeholder="MM/YY" class="masked" 
-    pattern="(1[0-2]|0[1-9])\/\d\d" data-valid-example="11/18" 
-    title="2-digit month and 2-digit year greater than 01/15">
-  &lt;/li>
-
-&lt;li>
-  &lt;label for="zip">Zip Code&lt;/label>
-  <b>&lt;input id="zip" type="tel" name="zipcode" class="masked" 
-  placeholder="XXXXX" pattern="\d{5}" title="5-digit zip code"></b>
-&lt;/li>
-&lt;li>
-  &lt;label for="zipca">Canadian Zip Code&lt;/label>
-  &lt;input id="zipca" type="text" name="zipcodeca"  class="masked"
-  placeholder="XXX XXX" pattern="\w\d\w \d\w\d" data-charset="_X_ X_X" 
-  title="6-character alphanumeric zip code in the format of A1A 1A1">
-&lt;/li>
-&lt;li>
-  &lt;label for="tel">Telephone&lt;/label>
-  &lt;input id="tel" type="tel" name="phone"  class="masked"
-  placeholder="(XXX) XXX-XXXX" pattern="\(\d{3}\) \d{3}\-\d{4}" title="10-digit number">
-&lt;/li>
-&lt;li>
-  &lt;label for="cc">Credit Card Number&lt;/label>
-  &lt;input id="cc" type="tel" name="ccnumber"  class="masked"
-  placeholder="XXXX XXXX XXXX XXXX" pattern="\d{4} \d{4} \d{4} \d{4}" title="16-digit number">
-&lt;/li>
-&lt;/ul></pre>
-<a href="https://github.com/estelle/input-masking/" class="pagelink">Input Masking README.md</a>
-</div>
-
-
-
-<div class="slide">
-  <div class="content">
-<pre contenteditable>&lt;li>
-  &lt;label for="zip">Zip Code&lt;/label>
-  <b>&lt;input id="zip" type="tel" name="zipcode" class="masked" 
-  placeholder="XXXXX" pattern="\d{5}" title="5-digit zip code"></b>
-&lt;/li></pre>
-<p>add magical JavaScript sprinkle sauce</p>
-<pre contenteditable>&lt;li>
-  &lt;label for="zip">Zip Code&lt;/label>
-  <b>&lt;span class="shell">
-    &lt;span aria-hidden="true" id="zipMask"><u>&lt;i>&lt;/i>XXXXX</u>&lt;/span></b>
-    &lt;input id="zip" type="tel" name="zipcode" pattern="\d{5}" 
-    class="masked" title="5-digit zip code" maxlength="5" 
-    placeholder="XXXXX" <b>aria-label="Zip Code: 5-digit zip code"</b>>
-  <b>&lt;/span></b>
-&lt;/li></pre>
-</div>
-</div>
-
-<div class="slide">
-  <header><h1>The magical sauce</h1></header>
-  <div class="content" style="padding-top: 30px;">
-<pre contenteditable><b>&lt;span aria-hidden="true" id="zipMask"><u>&lt;i>&lt;/i>XXXXX</u>&lt;/span></pre>
-
-<p>on data entry...<span style="position: relative; top: -0.5em;display: inline-block; background-color: rgba(0, 0, 255,  0.1);font-size: 1em; width: 5em;"><i style=" background-color: rgba( 255,0,0,  0.1)">123</i>XX<input value="123" style="position: absolute; top: 50%; left: 0; font-size: 1em; background: rgba(0,255,0,0.1); width: 5em;"></span>&nbsp;&nbsp;<span style="position: relative; display: inline-block; background-color: rgba(0, 0, 255,  0.1);font-size: 1em; width: 5em;"><i style=" background-color: rgba( 255,0,0,  0.1); opacity: 0.3">123</i>XX<input value="123" style="position: absolute; top: 0; left: 0; font-size: 1em; background: rgba(0,255,0,0.1); width: 5em;"></span></p>
-
-<pre contenteditable><b>&lt;span aria-hidden="true" id="zipMask"><u>&lt;i>123&lt;/i>XX</u>&lt;/span></b></pre>
-
-<p style="text-align: right; font-size: 1rem"><a href="https://github.com/estelle/input-masking">Github Repo &raquo;</a> &nbsp;</p>
-</div></div>
-
-
-
-<!--<div class="slide">
-<header><h1>Create the Mask</h1></header>
-<pre contenteditable>  // replaces each masked input t with a shell containing the input and it's mask.
-  createShell : function (input) {
-    var wrap = document.createElement('span'),
-        mask = document.createElement('span'),
-        emphasis = document.createElement('i'),
-        inputClass = input.getAttribute('class'),
-        title = input.getAttribute('title'),
-        id = input.getAttribute('id'),
-        placeholder = document.createTextNode(input.getAttribute('placeholder'));
-
-    input.setAttribute('maxlength', placeholder.length);
-    if(title){
-      input.setAttribute('aria-label', document.querySelector("label[for= " + id + "]").innerText + ": " + title);
-    }
-
-    mask.setAttribute('aria-hidden', 'true');
-    mask.setAttribute('id', id + 'Mask');
-    mask.appendChild(emphasis);
-    mask.appendChild(placeholder);
-
-    wrap.setAttribute('class', 'shell');
-    wrap.appendChild(mask);
-    input.parentNode.insertBefore( wrap, input );
-    wrap.appendChild(t);
-  },</pre></div>
-
-
--->
-
-<div class="slide">
-<header><h1>Style the Masking</h1></header>
-<pre contenteditable>.shell { position: relative; line-height: 1; }
-  <b>.shell span</b> {
-    position: absolute; left: 3px; top: 1px;
-    color: $themeColor;
-    pointer-events: none;
-    z-index: -1; }
-    <b>.shell span i </b>{ /* any of these 3 will work */
-<b>      color: transparent;
-      opacity: 0;
-      visibility: hidden; </b>
-      }
-
-.shell span, input.masked { /* make them match */
- <b> background-color: transparent;</b>
-  font-size: 16px; font-family: monospace; padding-right: 10px; text-transform: uppercase; }
-
-/* hide placeholder */
-.shell .masked<b>::-webkit-input-placeholder</b> {color: transparent;}
-.shell .masked<b>::-moz-placeholder</b> {color: transparent;}
-.shell .masked<b>:-ms-input-placeholder</b> {color: transparent;}
-.shell .masked<b>::placeholder { color: transparent;}</b>
-  </pre></div>
-
 
 
 <div class="slide">
@@ -800,20 +682,83 @@ function setClass(objectID,newClass) {
 
 
 
+<div class="slide">
+  <header><h1>Basic HTML</h1></header>
+  <div class="content">
+<form>
+  <fieldset style="width: 75%; margin: auto"><legend>Radio Buttons are</legend>
 
-<div class="slide object">
-<object data="https://miketaylr.com/code/input-type-attr.html"></object>
-<a href="https://miketaylr.com/code/input-type-attr.html" class="pagelink">Browser Test</a>
+    <ul style="list-style-type: none">
+      <li><input id="rbb1" type="radio" name="a11y" value="important"> <label for="rbb1">by default accessible</label></li>
+      <li><input id="rbb2" type="radio" name="a11y" value="useful"> <label for="rbb2">super useful</label></li>
+      <li><input id="rbb3" type="radio" name="a11y" value="required"> <label for="rbb3">natively navigable</label></li>
+      <li><input id="rbb4" type="radio" name="a11y" value="helpful"> <label for="rbb4">supported in all browsers</label></li>
+      <li><input id="rbb5" type="radio" name="a11y" value="the right thing to do"> <label for="rbb5">semantic</label></li>
+      <li><input id="rbb6" type="radio" name="a11y" value="simple"> <label for="rbb6">easy to implement</label></li>
+      <li><input id="rbb7" type="radio" name="a11y" value="all"> <label for="rbb7">All of the above</label></li>
+
+  </fieldset></form>
+
+  </div>
 </div>
+
+<div class="slide myquote">
+  <header><h1>HTML (1993)</h1></header>
+  <div class="content"><blockquote>"RADIO: For attributes which can take a single value from a set of alternatives. Each radio button in the group should be given the same NAME."</blockquote></div>
+</div>
+
+
+<!-- Ember radio widget -->
+<div class="slide object" style="background: url(assets/images/emberwidget.png) no-repeat center; background-size: contain">
+<a href="http://opensource.addepar.com/ember-widgets/#/ember-widgets/radioButton" class="pagelink">Reimplements semantics, focus, tab order</a>
+</div>
+
+
 
 
 <div class="slide">
-<header><h1>The Radio Button</h1></header>
-<div class="content">put radio button here</div>
+  <header><h1>Application.hbs</h1></header>
+  <div class="content">
+<pre contenteditable>{{#radio-button-group-component}}
+
+  &lt;div class="radio-row">
+    {{#radio-button value=true}}
+      &lt;span class="form-label radio-label">True&lt;/span>
+    {{/radio-button}}
+  &lt;/div>
+
+  &lt;div class="radio-row">
+    {{#radio-button value=false}}
+      &lt;span class="form-label radio-label">False&lt;/span>
+    {{/radio-button}}
+  &lt;/div>
+
+{{/radio-button-group-component}</pre></div>
 </div>
 
+<div class="slide">
+  <header><h1>Semantic.hbs</h1></header>
+  <div class="content">
+<pre contenteditable>{{#radio-button-group-component <b>name="myButtonGroup"</b>}}
+
+  &lt;<b>label</b> class="radio-row">
+    {{#radio-button value=true}}
+      &lt;span class="form-label radio-label">True&lt;/span>
+    {{/radio-button}}
+  &lt;/label>
+
+  <b>&lt;label>
+    {{#radio-button value=false}}
+      False
+    {{/radio-button}}
+  &lt;/label></b>
+
+{{/radio-button-group-component}</pre></div>
+</div>
+
+
 <div class="slide object">
-<object data="http://estelle.github.io/merry-go-round/"></object>
+<object data="site/merrygoround.html"></object>
 <a href="http://estelle.github.io/merry-go-round/" class="pagelink">Github Repo</a>
 
 </div>
@@ -826,7 +771,7 @@ function setClass(objectID,newClass) {
 
 
 <div class="slide object">
-<object data="carouselA.html"></object>
+<object data="carousel_semantic1.html"></object>
 <img src="assets/images/carousel-carousel.png"  class="bytes" alt="Carousel script is 1.1kb">
 </div>
 
@@ -836,7 +781,7 @@ function setClass(objectID,newClass) {
 
 
 <div class="slide object">
-<object data="carouselcss.html" class="enlarge"></object>
+<object data="carouselcss.html"></object>
 <a href="http://github.com/estelle/merry-go-round" class="pagelink">Github Repo</a>
 
 </div>
@@ -979,12 +924,6 @@ function setClass(objectID,newClass) {
 </div>
 
 
-<div class="slide tweet" aria-label="First rule of ARIA: If you can use a native HTML element or attribute with the semantics and behaviour you require already built in, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, then do so. Under what circumstances may this not be possible? If the feature is available in HTML [HTML51] but it is not implemented or it is implemented, but accessibility support is not. If the visual design constraints rule out the use of a particular native element, because the element cannot be styled as required. If the feature is not currently available in HTML.">
-
-<section class="content">
-<blockquote class="twitter-tweet" data-lang="en"><p>It&#39;s Monday 3rd of April 2016 and... <br>First rule of ARIA, is still:<a href="https://t.co/bsiN798ARq">https://t.co/bsiN798ARq</a> <a href="https://t.co/gXwDXAKGjU">pic.twitter.com/gXwDXAKGjU</a></p>&mdash; Steve Faulkner (@stevefaulkner) <a href="https://twitter.com/stevefaulkner/status/717013674016247808">April 4, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></section>
-</div>
 
 
 <div class="slide object">
@@ -1112,6 +1051,131 @@ function setClass(objectID,newClass) {
   }
 }</pre>
 </div>
+
+
+<div class="slide object">
+<object data="inputmask.html"></object>
+<a href="inputmask.html" class="pagelink">Open</a>
+<img src="assets/images/inputmasksize_a11y.png"  class="bytes" alt="script is only 2.0kb">
+</div>
+
+
+
+
+
+<div class="slide">
+<pre contenteditable class="allcode" style="padding-top: 23px;">&lt;ul>
+  &lt;li>
+    &lt;label for="expiration">Credit Card Expiration Month&lt;/label>
+    &lt;input id="expiration" type="tel" placeholder="MM/YY" class="masked" 
+    pattern="(1[0-2]|0[1-9])\/\d\d" data-valid-example="11/18" 
+    title="2-digit month and 2-digit year greater than 01/15">
+  &lt;/li>
+
+&lt;li>
+  &lt;label for="zip">Zip Code&lt;/label>
+  <b>&lt;input id="zip" type="tel" name="zipcode" class="masked" 
+  placeholder="XXXXX" pattern="\d{5}" title="5-digit zip code"></b>
+&lt;/li>
+&lt;li>
+  &lt;label for="zipca">Canadian Zip Code&lt;/label>
+  &lt;input id="zipca" type="text" name="zipcodeca"  class="masked"
+  placeholder="XXX XXX" pattern="\w\d\w \d\w\d" data-charset="_X_ X_X" 
+  title="6-character alphanumeric zip code in the format of A1A 1A1">
+&lt;/li>
+&lt;li>
+  &lt;label for="tel">Telephone&lt;/label>
+  &lt;input id="tel" type="tel" name="phone"  class="masked"
+  placeholder="(XXX) XXX-XXXX" pattern="\(\d{3}\) \d{3}\-\d{4}" title="10-digit number">
+&lt;/li>
+&lt;li>
+  &lt;label for="cc">Credit Card Number&lt;/label>
+  &lt;input id="cc" type="tel" name="ccnumber"  class="masked"
+  placeholder="XXXX XXXX XXXX XXXX" pattern="\d{4} \d{4} \d{4} \d{4}" title="16-digit number">
+&lt;/li>
+&lt;/ul></pre>
+<a href="https://github.com/estelle/input-masking/" class="pagelink">Input Masking README.md</a>
+</div>
+
+
+
+<div class="slide">
+  <div class="content">
+<pre contenteditable>&lt;li>
+  &lt;label for="zip">Zip Code&lt;/label>
+  <b>&lt;input id="zip" type="tel" name="zipcode" class="masked" 
+  placeholder="XXXXX" pattern="\d{5}" title="5-digit zip code"></b>
+&lt;/li></pre>
+<p>add magical JavaScript sprinkle sauce</p>
+<pre contenteditable>&lt;li>
+  &lt;label for="zip">Zip Code&lt;/label>
+  <b>&lt;span class="shell">
+    &lt;span aria-hidden="true" id="zipMask"><u>&lt;i>&lt;/i>XXXXX</u>&lt;/span></b>
+    &lt;input id="zip" type="tel" name="zipcode" pattern="\d{5}" 
+    class="masked" title="5-digit zip code" maxlength="5" 
+    placeholder="XXXXX" <b>aria-label="Zip Code: 5-digit zip code"</b>>
+  <b>&lt;/span></b>
+&lt;/li></pre>
+</div>
+</div>
+
+<div class="slide">
+  <header><h1>The magical sauce</h1></header>
+  <div class="content" style="padding-top: 30px;">
+<pre contenteditable>&lt;span aria-hidden="true" id="zipMask"><u>&lt;i>&lt;/i>XXXXX</u>&lt;/span></pre>
+
+<p>on data entry...<span style="position: relative; top: -0.5em;display: inline-block; background-color: rgba(0, 0, 255,  0.1);font-size: 1em; width: 5em;"><i style=" background-color: rgba( 255,0,0,  0.1)">123</i>XX<input value="123" style="position: absolute; top: 50%; left: 0; font-size: 1em; background: rgba(0,255,0,0.1); width: 5em;"></span>&nbsp;&nbsp;<span style="position: relative; display: inline-block; background-color: rgba(0, 0, 255,  0.1);font-size: 1em; width: 5em;"><i style=" background-color: rgba( 255,0,0,  0.1); opacity: 0.3">123</i>XX<input value="123" style="position: absolute; top: 0; left: 0; font-size: 1em; background: rgba(0,255,0,0.1); width: 5em;"></span></p>
+
+<pre contenteditable>&lt;span aria-hidden="true" id="zipMask"><u>&lt;i>123&lt;/i>XX</u>&lt;/span></pre>
+
+<p style="text-align: right; font-size: 1rem"><a href="https://github.com/estelle/input-masking">Github Repo &raquo;</a> &nbsp;</p>
+</div></div>
+
+
+
+<div class="slide">
+<header><h1>Style the Masking</h1></header>
+<pre contenteditable>.shell { position: relative; line-height: 1; }
+  <b>.shell span</b> {
+    position: absolute; left: 3px; top: 1px;
+    color: $themeColor;
+    pointer-events: none;
+    z-index: -1; }
+    <b>.shell span i </b>{ /* any of these 3 will work */
+<b>      color: transparent;
+      opacity: 0;
+      visibility: hidden; </b>
+      }
+
+.shell span, input.masked { /* make them match */
+ <b> background-color: transparent;</b>
+  font-size: 16px; font-family: monospace; padding-right: 10px; text-transform: uppercase; }
+
+/* hide placeholder */
+.shell .masked<b>::-webkit-input-placeholder</b> {color: transparent;}
+.shell .masked<b>::-moz-placeholder</b> {color: transparent;}
+.shell .masked<b>:-ms-input-placeholder</b> {color: transparent;}
+.shell .masked<b>::placeholder { color: transparent;}</b>
+  </pre></div>
+
+<div class="slide myquote">
+  <header><h1>CSS and Semantic HTML</h1></header>
+  <div class="content">
+<blockquote>Changing the layout changes the semantics:</blockquote>
+<pre>table {
+  display: grid;
+}</pre>
+<blockquote>is no longer read as a table by screen readers.</blockquote>
+  </div>
+</div>
+
+
+<div class="slide object">
+<object data="https://codepen.io/estelle/full/BYvLYp/"></object>
+
+<a href="https://codepen.io/estelle/full/BYvLYp/" class="pagelink">Codepen.io</a>
+</div>
+
 
 <div class="slide thinkoutsidebox intro">
   <div class="box">
