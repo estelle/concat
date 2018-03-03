@@ -73,6 +73,29 @@ object.enlarge {
 </div>
 
 
+<div class="slide">
+  <header><h1>2011</h1></header>
+  <div class="content">
+      <pre contenteditable style="width: 50%; transform: scale(1.5); transform-origin: top left;">&lt;script src="<b>jquery.js</b>"&gt;&lt;/script&gt;
+          
+&lt;script type="text/javascript"&gt;                                         
+   <b>$('li:first').addClass('first'); </b>    
+&lt;/script&gt;
+</pre>
+  </div>
+</div>
+
+
+<div class="slide object" style="background: url(assets/images/visalogin.png) no-repeat center 0;">
+<object data="https://secure.checkout.visa.com"></object>
+ 
+<a href="https://secure.checkout.visa.com" class="pagelink">Original Site</a>
+</div>
+
+<div class="slide object" style="background: url(assets/images/emberwidget.png) no-repeat center; background-size: contain">
+<a href="http://opensource.addepar.com/ember-widgets/#/ember-widgets/radioButton" class="pagelink">Original Site</a>
+</div>
+
 
 
 <div class="slide intro">
@@ -167,7 +190,27 @@ object.enlarge {
 		<div>situational</div>
 	</div>
 </div>
-<!-- slide -->
+
+
+<div class="slide">
+  <header><h1>Radio Buttons</h1></header>
+  <div class="content">
+<form>
+  <fieldset style="width: 75%; margin: auto"><legend>Accessibility is</legend>
+
+    <ul style="list-style-type: none">
+      <li><input id="rb1" type="radio" name="a11y" value="important"> <label for="rb1">important</label></li>
+      <li><input id="rb2" type="radio" name="a11y" value="useful"> <label for="rb2">useful</label></li>
+      <li><input id="rb3" type="radio" name="a11y" value="required"> <label for="rb3">required</label></li>
+      <li><input id="rb4" type="radio" name="a11y" value="helpful"> <label for="rb4">helpful for everyone</label></li>
+      <li><input id="rb5" type="radio" name="a11y" value="the right thing to do"> <label for="rb5">the right thing to do</label></li>
+      <li><input id="rb6" type="radio" name="a11y" value="simple"> <label for="rb6">simple</label></li>
+      <li><input id="rb7" type="radio" name="a11y" value="all"> <label for="rb7">All of the above</label></li>
+
+  </fieldset>
+
+  </div>
+</div>
 
 <div class="slide">
 <h1 class="aria"><i>A</i>ccessible
@@ -309,22 +352,25 @@ object.enlarge {
 
 <div class="slide">
 <header><h1>Performance Tools</h1></header>
-<section class="content">
+<section class="content" style="margin-top: -40px">
   <ul>
-    <li>YSlow</li>
-    <li><a class="pagelink" href="https://developers.google.com/speed/docs/insights/about#send-us-your-feedback">Page Speed</a></li>
-    <li></li>
-    <li>Lighthouse</li>
+    <li><a href="http://yslow.org/">YSlow</a> <small style="display:inline">- abandoned</small></li>
+    <li><a href="https://developers.google.com/speed/pagespeed/insights/">Page Speed / Insights</a></li>
+<li><a href="https://webpagetest.org">WebPageTest.org</a></li>
+<li><a href="https://tools.pingdom.com">PingDOM.com</a></li>
+<li>Browser Dev Tools<ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Tools#The_Core_Tools">Mozilla Developer Tools</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/performance">Edge Performance Panel</a></li>
+<li><a href="https://developers.google.com/web/tools/chrome-devtools/rendering-tools/">Chrome Developer Tools</a></li>
+  </ul>
+</li>
+<li><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a> PWA, Performance, Best Practices, a11y</li>
+</ul>
 
 </section>
 </div>
 
 
-
-
-<div class="slide">
-  <header><h1>Lighthouse</h1></header>
-</div>
 
 <div class="slide"> 
 <header><h1>Usability Rules</h1></header> 
@@ -347,29 +393,6 @@ object.enlarge {
  </dl>
  <a class="pagelink" href="https://developers.google.com/speed/docs/insights/rules">Page Speed Insights</a>
  </section>
-</div>
-
-
-
-<div class="slide">
-<header><h1>WCAG 1.0 (1998)</h1></header>
-<section>
-<ol class="pop"><li>Provide equivalent <i>alt</i>ernatives to auditory and visual content
-</li><li>Don’t rely on <i>color</i> alone
-</li><li>Use markup (<i>HTML</i>) and style sheets (<i>CSS</i>), and do so properly
-</li><li>Clarify natural <i>lang</i>uage usage
-</li><li>Create tables that transform gracefully
-</li><li>Ensure that pages featuring new technologies transform gracefully
-</li><li>Ensure user control of <i>time</i> sensitive content changes
-</li><li>Ensure direct accessibility of embedded user interfaces
-</li><li>Design for <i>device independence</i>
-</li><li>User interim solutions
-</li><li>Use W3C technologies and guidelines
-</li><li>Provide context and orientation information
-</li><li>Provide clear <i>nav</i>igation mechanisms
-</li><li>Ensure that documents are <i>clear</i> and <i>simple</i>
-</li></ol>
-</section>
 </div>
 
 
