@@ -440,13 +440,13 @@ twitterwidget {
     -webkit-clip-path: circle(48%);
     background-color: #FFF;
     background-position: center;
-    background-size: 44vh auto;
+    background-size: 45vh auto;
     background-image: url(http://chart.googleapis.com/chart?chs=400x225&amp;cht=p&amp;chco=333333&amp;chd=t:416,34,25,113,2,22&amp;chbg=transparent&amp;chds=0,416&amp;chdlp=b&amp;chma=|5); }
   .big_piechart:hover div {
     transform: rotate(-31.5deg);
-    height: 44.34vh;
-    width: 44.34vh;
-    background-size: 80vh auto;
+    height: 35.8vh;
+    width: 35.8vh;
+    background-size: 67vh auto;
     background-image: url(http://chart.googleapis.com/chart?chs=400x225&amp;cht=p&amp;chco=333333&amp;chd=t:416,34,25,113,2,22&amp;chbg=transparent&amp;chds=0,416&amp;chdlp=b&amp;chma=|5&amp;chp=-.55); }
 
 .hidden_dd {
