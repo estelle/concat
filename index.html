@@ -48,6 +48,10 @@ object.enlarge {
   font-size: 2.3rem;
  text-align: left;
 }
+
+[type=radio]:checked + label {
+  font-style: italic;
+}
 </style> <base target="play"/>
 </head>
 
@@ -224,7 +228,7 @@ object.enlarge {
       <li><input id="rb7" type="radio" name="a11y" value="all"> <label for="rb7">All of the above</label></li>
 
   </fieldset>
-
+<input type="submit">
   </div>
 </div>
 
@@ -331,7 +335,7 @@ object.enlarge {
           <li>Many image sizes</li>
           <li>Best image format</li>
           <li>&lt;picture> and source set</li>
-          <li>avoid browser resizing</li>
+          <li><s>avoid browser resizing</s></li>
         </ul>
     </li>
     <li>Leverage CSS 
@@ -345,6 +349,7 @@ object.enlarge {
       <ul><li>Lazy load</li></ul>
     </li>
 </ul>
+<p><a href="https://images.guide/">Essential Image Optimization</a></p>
 </section>
 </div>
  
@@ -380,7 +385,7 @@ object.enlarge {
 <li><a href="https://developers.google.com/web/tools/chrome-devtools/rendering-tools/">Chrome Developer Tools</a></li>
   </ul>
 </li>
-<li><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a> PWA, Performance, Best Practices, a11y</li>
+<li><a href="https://developers.google.com/web/tools/lighthouse/"><u>Lighthouse</u></a> PWA, Performance, Best Practices, a11y</li>
 </ul>
 
 </section>
@@ -668,6 +673,12 @@ function setClass(objectID,newClass) {
 
 
 
+
+<!-- Ember radio widget -->
+<div class="slide object" style="background: url(assets/images/emberwidget.png) no-repeat center; background-size: contain">
+<a href="https://opensource.addepar.com/ember-widgets/#/ember-widgets/radioButton" class="pagelink">Reimplements semantics, focus, tab order</a>
+</div>
+
 <div class="slide">
   <header><h1>Basic HTML</h1></header>
   <div class="content">
@@ -689,11 +700,6 @@ function setClass(objectID,newClass) {
 </div>
 
 
-
-<!-- Ember radio widget -->
-<div class="slide object" style="background: url(assets/images/emberwidget.png) no-repeat center; background-size: contain">
-<a href="https://opensource.addepar.com/ember-widgets/#/ember-widgets/radioButton" class="pagelink">Reimplements semantics, focus, tab order</a>
-</div>
 
 <div class="slide myquote">
   <header><h1>HTML (1993)</h1></header>
@@ -773,7 +779,7 @@ function setClass(objectID,newClass) {
 </div>
 
 <div class="slide object">
-<object data="carouselcss2.html" class="enlarge"></object>
+<object data="carouselcss2.html"></object>
 <a href="https://github.com/estelle/merry-go-round" class="pagelink">Github Repo</a>
 
 </div><div class="slide object">
@@ -1040,14 +1046,6 @@ function setClass(objectID,newClass) {
 
 
 
-<div class="slide object">
-<object data="https://robinherbots.github.io/Inputmask/"></object>
-<a href="https://robinherbots.github.io/Inputmask/" class="pagelink">Github Repo</a>
-<img src="assets/images/inputmasksize.png"  class="bytes" alt="jquery at 37.7kb and input masking script is 29.6kb">
-</div>
-
-
-
 
 
 
@@ -1057,6 +1055,24 @@ function setClass(objectID,newClass) {
 <img src="assets/images/inputmasksize_a11y.png"  class="bytes" alt="script is only 2.0kb">
 </div>
 
+
+
+
+
+<div class="slide object">
+<object data="https://robinherbots.github.io/Inputmask/"></object>
+<a href="https://robinherbots.github.io/Inputmask/" class="pagelink">Github Repo</a>
+<img src="assets/images/inputmasksize.png"  class="bytes" alt="jquery at 37.7kb and input masking script is 29.6kb">
+</div>
+
+
+
+
+<div class="slide object">
+<object data="inputmask.html"></object>
+<a href="inputmask.html" class="pagelink">Open</a>
+<img src="assets/images/inputmasksize_a11y.png"  class="bytes" alt="script is only 2.0kb">
+</div>
 
 
 
@@ -1191,12 +1207,6 @@ function setClass(objectID,newClass) {
 <a href="https://w3c.github.io/using-aria/" class="pagelink">WAI-ARIA</a>
 </div>
 
-
-
-  <div class="slide intro">
-    <section class="content">
-
-
  
 
 <div class="slide resources">
@@ -1223,10 +1233,10 @@ function setClass(objectID,newClass) {
 </div>
 
 
-<div class="slide current">
-
+<div class="slide">
 <header><h1>We're Hiring</h1></header>
-  <section class="content"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 350.1 98.1" style="enable-background:new 0 0 350.1 98.1; " xml:space="preserve">
+  <section class="content">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 350.1 98.1" style="enable-background:new 0 0 350.1 98.1; " xml:space="preserve">
 <style type="text/css">
   .st0{fill:#88817F;}
 </style>
@@ -1251,11 +1261,18 @@ function setClass(objectID,newClass) {
 <polygon class="st0" points="46.9,77.9 20.8,77.9 57.4,20.2 83.4,20.2 "></polygon>
 <polygon points="81.1,77.9 107.1,77.9 90.1,50.8 64,50.8 "></polygon>
 </svg>
-</section></div>
+</section>
+</div>
 
-<h1>Questions?</h1>
+
+
+<div class="slide">
+  <header><h1>Questions?</h1></header>
+<section class="content">
+
 <p>estelle@weyl.org<br/>@estellevw / @standardista</p>
       <p>all talks at <a href="https://estelle.github.io/">estelle.github.io/</a></p>
+      <p><br/><br/><br/><br/>Send resumes to: <a>estelle&#46;weyl&#64;addepar&#46;com</a></p>
     </section>
 </div>
 
@@ -1268,7 +1285,10 @@ function setClass(objectID,newClass) {
   <img src="https://akamaicovers.oreilly.com/images/9780987467485/cat.gif" alt="HTML5 and CSS3 for the Real World">
   <img src="https://akamaicovers.oreilly.com/images/0636920041658/cat.gif" alt="Animations and Transitions with CSS"/>
   <img src="https://akamaicovers.oreilly.com/images/0636920021711/cat.gif" alt="MObile HTML5" />
-  <img src="https://akamaicovers.oreilly.com/images/0636920025955/cat.gif" alt="Web Performance Daybook"/></div>
+  <img src="https://akamaicovers.oreilly.com/images/0636920025955/cat.gif" alt="Web Performance Daybook"/>
+  <img src="https://covers.oreillystatic.com/images/0636920066682/cat.gif" alt="Flexbox in CSS"/>
+  <img src="https://covers.oreillystatic.com/images/0636920012726/cat.gif" alt="CSS: The Definitive Guide">
+</div>
 </section>
 </div>
 

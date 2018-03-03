@@ -5,11 +5,11 @@ pre {float: left;}pre {
   background: 
     linear-gradient(to top, rgba(34, 109, 170, 0.2) 50%, rgba(255,255,255,0.5) 50%);
   
-  tab-size: 1.5em;
-  background-attachment: local; background-position: 0 -4vh;
-  background-size: 100% 8vh;
-  line-height: 4vh;  
-  font-size: 3.3vh; 
+  tab-size: 1.5rem;
+  background-attachment: local; background-position: 0 -4rem;
+  background-size: 100% 8rem;
+  line-height: 4rem;  
+  font-size: 3.3rem; 
   margin-top: 0;
 }
 body {display: flex;}
@@ -19,7 +19,8 @@ body {display: flex;}
 $itemwidth: 164px;
 @while $count < 20 {
   .left#{$count} li {
-    transform: translateX($count * $itemwidth * -1);
+    transform: 
+       translateX($count * $itemwidth * -1);
   }
   $count: $count + 1
 }</pre></body>
