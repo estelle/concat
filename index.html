@@ -52,6 +52,8 @@ object.enlarge {
 [type=radio]:checked + label {
   font-style: italic;
 }
+
+.fadeout {color: rgba(0,0,0,0.2);}
 </style> <base target="play"/>
 </head>
 
@@ -85,7 +87,7 @@ object.enlarge {
 
 <div class="slide">
   <header><h1>2011</h1></header>
-  <div class="content">
+  <div class="content visualfade">
       <pre contenteditable style="width: 50%; transform: scale(1.5); transform-origin: top left;">&lt;script src="<b>jquery.js</b>"&gt;&lt;/script&gt;
           
 &lt;script type="text/javascript"&gt;                                         
@@ -522,7 +524,7 @@ object.enlarge {
 <header><h1>CSS</h1></header>
 <section>
 <p>8,596 lines, 627 KiB</p>
-<pre>@<b>-webkit-</b>keyframes fadeOutAndMoveDown {
+<pre  class="visualfade">@<b>-webkit-</b>keyframes fadeOutAndMoveDown {
     0% {
         top: 50%;
         opacity: 1;
@@ -731,7 +733,7 @@ function setClass(objectID,newClass) {
 <div class="slide">
   <header><h1>Semantic.hbs</h1></header>
   <div class="content">
-<pre contenteditable>{{#radio-button-group-component <b>name="myButtonGroup"</b>}}
+<pre contenteditable  class="visualfade">{{#radio-button-group-component <b>name="myButtonGroup"</b>}}
 
   &lt;<b>label</b> class="radio-row">
     {{#radio-button value=true}}
@@ -836,7 +838,7 @@ function setClass(objectID,newClass) {
 <div class="slide object">
 <!--<object data="../a11yperf/visaselect.html" class="enlarge"></object>-->
 <img src="assets/images/dropkick.png" class="bytes" alt="5.8kb for the dropkick js file with jquery dependencyof 38.6 kb minified">
-<pre>&lt;section id="footer-listbox" <b>role="listbox" aria-label</b>="Select your country" class="footer-languageSelector">
+<pre  class="visualfade">&lt;section id="footer-listbox" <b>role="listbox" aria-label</b>="Select your country" class="footer-languageSelector">
   &lt;section <b>role="option" tabindex="-1" aria-selected="true" </b>
     id="footerLanguageOption-0" data-value="AR" class="footer-languageSelector-item">
     &lt;label>Argentina&lt;/label>
@@ -921,7 +923,7 @@ function setClass(objectID,newClass) {
 <div class="slide object">
 <!--<object data="../a11yperf/estelleselect.html" class="enlarge"></object>-->
 <img src="assets/images/language_selector_time.png"  class="bytes" alt="Selector script is 917 bytes"/>
-<pre><b>&lt;fieldset class="languageSelector">
+<pre class="visualfade"><b>&lt;fieldset class="languageSelector">
   &lt;legend>Select your country:&lt;/legend></b>
   &lt;ul>
     &lt;li>
@@ -1021,7 +1023,7 @@ function setClass(objectID,newClass) {
 
 
 <div class="slide">
-<pre>footer {
+<pre class="visualfade">footer {
   &.open {
     height: 168px; 
   }
@@ -1078,7 +1080,7 @@ function setClass(objectID,newClass) {
 
 
 <div class="slide">
-<pre contenteditable class="allcode" style="padding-top: 23px;">&lt;ul>
+<pre contenteditable class="allcode visualfade" style="padding-top: 23px;">&lt;ul>
   &lt;li>
     &lt;label for="expiration">Credit Card Expiration Month&lt;/label>
     &lt;input id="expiration" type="tel" placeholder="MM/YY" class="masked" 
@@ -1115,7 +1117,7 @@ function setClass(objectID,newClass) {
 
 <div class="slide">
   <div class="content">
-<pre contenteditable>&lt;li>
+<pre contenteditable  class="visualfade">&lt;li>
   &lt;label for="zip">Zip Code&lt;/label>
   <b>&lt;input id="zip" type="tel" name="zipcode" class="masked" 
   placeholder="XXXXX" pattern="\d{5}" title="5-digit zip code"></b>
@@ -1149,7 +1151,7 @@ function setClass(objectID,newClass) {
 
 <div class="slide">
 <header><h1>Style the Masking</h1></header>
-<pre contenteditable>.shell { position: relative; line-height: 1; }
+<pre contenteditable  class="visualfade">.shell { position: relative; line-height: 1; }
   <b>.shell span</b> {
     position: absolute; left: 3px; top: 1px;
     color: $themeColor;

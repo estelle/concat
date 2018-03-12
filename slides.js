@@ -324,6 +324,16 @@ SlideShow.prototype = {
 			return true;
 		} 
 	},
+
+	fadeOut: function(e) {
+		var stuffToFade = document.querySelector('.current .visualfade');
+		if(stuffToFade) {
+			stuffToFade.classList.add('fadeout');
+			stuffToFade.classList.remove('visualfade');
+			return true;
+		} 
+
+	},
 	
     handleKeys: function(e) {
       // disable keys for these elements
@@ -337,7 +347,12 @@ SlideShow.prototype = {
 		  case 39: // right arrow
 		  case 32: // space
 		  case 34: // clicker right
-		     if(this.removeHidingClass()) {break;}
+		     if(this.removeHidingClass()) {
+		     	break;
+		     } 
+		     if(this.fadeOut()) {
+		     	break;
+		     }
 			 this.next(); break;
 		  case 50: // 2
 		  case 190: // 2
