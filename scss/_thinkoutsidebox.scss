@@ -1,4 +1,9 @@
 @import "variables";
+.box p {
+	border: 1vmin solid $ilblue;
+	display: inline-block;
+	padding: 1vh 2vw;
+}
 .thinkoutsidebox {
 	.box {
 		width: 25vw;
